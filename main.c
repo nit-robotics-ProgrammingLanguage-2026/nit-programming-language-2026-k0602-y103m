@@ -7,7 +7,7 @@ int main(void) {
     // n がマイナスのときは「NG」と表示
     if (n < 0) {
         printf("NG\n");
-        return 0;
+        return  0;
     }
  
     long long sum = 0; // 合計が大きくなる可能性があるため型に注意
